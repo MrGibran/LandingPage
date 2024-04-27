@@ -1,0 +1,70 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.owl-personalized .owl-dots,
+.owl-personalized .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent
+}
+
+.owl-personalized .owl-nav {
+    margin-top: 10px
+}
+
+.owl-personalized .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.owl-personalized .owl-nav [class*=owl-]:hover {
+    background: rgb(153, 16, 156);
+    color: #FFF;
+    text-decoration: none
+}
+
+.owl-personalized .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.owl-personalized .owl-nav.disabled+.owl-dots {
+    margin-top: 10px
+}
+
+.owl-personalized .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1
+}
+
+.owl-personalized .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .4s ease;
+    border-radius: 30px
+}
+
+.owl-personalized .owl-dots .owl-dot.active span,
+.owl-personalized .owl-dots .owl-dot:hover span {
+    background: rgb(153, 16, 156);
+}
+
+.center{
+    filter: blur(0px) !important;
+    transform: scale(1.05) !important;
+}
+
+.owl-item{
+    filter: blur(1px);
+}
