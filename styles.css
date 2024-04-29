@@ -223,3 +223,15 @@
                 transition: 0.6s;
             }
             
+            .circle{
+                background-color: purple;
+                position: absolute;
+                top: 40px; left: 15px;
+                width: 65px;
+                height: 65px;
+                border-radius: 50%;
+            }
+
+            .form-control{
+                border-color: rgb(153, 16, 156);
+            }
